@@ -12,6 +12,10 @@ class AmazonTransaction
     @total += price * quanity
     @items << title 
   end
+  
+  def discount
+    @total = price + discount
+  end
 end
 
 
