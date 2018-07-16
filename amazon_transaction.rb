@@ -14,4 +14,4 @@ class AmazonTransaction
 end
 
 
-amazon_transaction.add_item("eggs", 0.98)
+# amazon_transaction.add_item("eggs", 0.98)
